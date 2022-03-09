@@ -57,7 +57,7 @@ export default function App() {
     <AppLoading/>
   }
   return(
-    <NavigationContainer>
+    <NavigationContainer style={{backgroundColor:"Red"}}>
       <Stack.Navigator initialRouteName='Home' >
         {/* Home Screen */}
           
@@ -66,9 +66,13 @@ export default function App() {
             fontSize:30,
             fontFamily:"ProstoOne_400Regular",
             fontWeight:"600"
+            
 
           },
+          headerStyle:{backgroundColor:"#00bfff"},
           headerTitleAlign:"center",
+          headerTintColor:"white"
+          
           
         }} >
           {(props)=><Home {...props} appName={"Education App"}  />}
@@ -83,7 +87,9 @@ export default function App() {
             fontFamily:"ProstoOne_400Regular",
             fontWeight:"600"
           },
-          headerTitleAlign:"center"}}/>
+          headerStyle:{backgroundColor:"#00bfff"},
+          headerTitleAlign:"center",
+          headerTintColor:"white"}}/>
 
         {/* Course Screen */}
 
@@ -93,7 +99,9 @@ export default function App() {
             fontFamily:"ProstoOne_400Regular",
             fontWeight:"600"
           },
-          headerTitleAlign:"center"}}/>
+          headerStyle:{backgroundColor:"#00bfff"},
+          headerTitleAlign:"center",
+          headerTintColor:"white"}}/>
 
         {/* About Screen */}
 
@@ -103,7 +111,9 @@ export default function App() {
             fontFamily:"ProstoOne_400Regular",
             fontWeight:"600"
           },
-          headerTitleAlign:"center"}}/>
+          headerStyle:{backgroundColor:"#00bfff"},
+          headerTitleAlign:"center",
+          headerTintColor:"white"}}/>
 
          {/* UserData Screen */}
 
@@ -113,7 +123,9 @@ export default function App() {
             fontFamily:"ProstoOne_400Regular",
             fontWeight:"600"
           },
-          headerTitleAlign:"center"}}/>
+          headerStyle:{backgroundColor:"#00bfff"},
+          headerTitleAlign:"center",
+          headerTintColor:"white"}}/>
 
       </Stack.Navigator>
     </NavigationContainer>

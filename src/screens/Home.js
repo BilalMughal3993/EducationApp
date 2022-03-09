@@ -17,7 +17,7 @@ const Home = (props) => {
           Welcome to
         </Text>
         <Text style={[styles.headerText,{fontSize:33,
-        color:"blue"}]}>
+        color:"#00c8ff"}]}>
           {props.appName}
         </Text>
         <Text style={styles.homeDiscription}>{discription}</Text>
@@ -66,7 +66,7 @@ const Home = (props) => {
     },
     headerText:{
       fontSize:30,
-      color:"black",
+      color:"#00c8ff",
       textTransform:"uppercase",
       fontFamily:" Habibi_400Regular",
       fontWeight:"bold"
@@ -84,8 +84,10 @@ const Home = (props) => {
     },
     lineStyle:{
       marginBottom:20,
-      borderColor:"grey",
-      borderWidth:1
+      borderColor:"#00c8ff",
+      borderWidth:1,
+     
+        
     }
   });
 

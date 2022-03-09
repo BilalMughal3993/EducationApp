@@ -50,7 +50,19 @@ const styles = StyleSheet.create({
     imgStyle:{
         width:"100%",
         height:60,
-        aspectRatio:1
+        aspectRatio:1,
+        borderRadius:"100%",
+     
+    },
+    buttonStyle:{
+        borderRadius:"100%",
+        shadowColor: "#00c8ff",
+        shadowOffset: { width:0, height: 0 },
+        shadowOpacity: 2.5,
+        shadowRadius: 10,
+        borderColor:"white",
+        elevation: 8,
+        borderWidth:3
     }
 })
 
